@@ -94,7 +94,8 @@ int main()
 			{
                 gameWon = true;
                 break;
-            } else if (isBoardFull()) 
+            } 
+	    else if (isBoardFull()) 
 			{
                 break; 
             }
